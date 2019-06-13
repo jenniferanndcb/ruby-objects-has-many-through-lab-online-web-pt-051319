@@ -22,7 +22,7 @@ attr_accessor :name, :songs, :genres
   end 
   
   def songs 
-    Song.all.select {|songs| song.artist == self}
+    Song.all.select {|song| song.artist == self}
   end 
     
   def genres

@@ -12,7 +12,7 @@ class Doctor
   end 
   
   def appointments 
-    Appointment.all.select {|doctor| doctor.name
+    Appointment.all.select {|doctor| doctor.name}
   end 
   
 end 
